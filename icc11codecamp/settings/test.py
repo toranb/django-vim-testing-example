@@ -1,9 +1,4 @@
-from icc11codecamp.settings.base_settings import *
+from icc11codecamp.settings.dev import *
 
-TEMPLATE_DEBUG = DEBUG = True
-
-INSTALLED_APPS += (
-    'django_nose',
-)
-
-TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
+import logging
+logging.disable(logging.CRITICAL)
