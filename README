@@ -1,0 +1,13 @@
+An example project showing how to use the vim-python-test-runner plugin with django
+
+https://github.com/JarrodCTaylor/vim-python-test-runner
+
+1.) install the plugin above (using Vundle or Pathogen)
+2.) close and reopen vim from the project root
+3.) :e website/tests/api_view_tests.py
+4.) :DjangoTestFile
+
+You can also test at the method level / class level
+
+:DjangoTestClass
+:DjangoTestMethod
